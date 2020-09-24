@@ -1,0 +1,2 @@
+# A Small Universe for My Learing
+I'm a university student in Computer Science. I' m a Chinese so I feel sorry if there are some mistakes for my poor English. This is a small universe to record my learning and I will do some exercises and write my feeling (maybe in Chinese:D). 
