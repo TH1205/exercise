@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>menu</title>
+  <style>
+    body {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: block;
+      white-space: nowrap;
+      background-color: lightgray;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    li:hover {
+      background-color: gray;
+    }
+
+    .menu>ul {
+      background-color: lightgray;
+
+    }
+
+    .menu>ul>li {
+      float: left;
+      position: relative;
+      width: 100px;
+    }
+
+    .menu>ul>li:hover>ul {
+      display: block;
+    }
+
+    .menu>ul>li>ul {
+      position: absolute;
+      display: none;
+    }
+
+    .menu>ul>li>ul>li:hover>ul {
+      display: block;
+    }
+
+    .menu>ul>li>ul>li {
+      position: relative;
+
+    }
+
+    .menu>ul>li>ul>li>ul {
+      position: absolute;
+      left: 100%;
+      top: 0;
+      display: none;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu">
+    <ul>
+      <li>file
+        <ul>
+          <li>new file</li>
+          <li>new window</li>
+          <li>open file...</li>
+        </ul>
+      </li>
+      <li>edit
+        <ul>
+          <li>undo</li>
+          <li>redo</li>
+          <li>cut</li>
+        </ul>
+      </li>
+      <li>selection
+        <ul>
+          <li>select all</li>
+          <li>copy line up</li>
+          <li>copy line down</li>
+        </ul>
+      </li>
+      <li>view
+        <ul>
+          <li>appearance >
+            <ul>
+              <li>full screen</li>
+              <li>zen mode</li>
+              <li>centered layout</li>
+            </ul>
+          </li>
+          <li>run</li>
+          <li>explore</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
